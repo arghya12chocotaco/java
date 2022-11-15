@@ -1,0 +1,18 @@
+import java.io.*;
+class one extends Thread{
+public void run(){
+System.out.println("1st class");
+}
+}
+class two extends Thread{
+public void run(){
+System.out.println("2nd class");
+}
+}
+class th{
+public static void main(String[]arg){
+one o1 = new one();
+two t1=new two();
+o1.start();
+t1.start();
+}
