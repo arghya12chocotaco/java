@@ -1,0 +1,17 @@
+import java.io.*;
+class Main{
+    public static void main(String[]arg){
+        int i = 50;
+        byte b= 5;
+        float f =6.5f;
+        char c='a';
+        Character C=Character.valueOf(c);
+        Float F=Float.valueOf(f);
+        Byte R = Byte.valueOf(b);
+        Integer a=Integer.valueOf(i);
+        System.out.println("i = "+i+","+"a = "+a);
+        System.out.println("R = "+R);
+        System.out.println("C = "+C);
+        System.out.println("F = "+F);
+    }
+}
